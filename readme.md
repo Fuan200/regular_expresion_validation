@@ -10,6 +10,7 @@ This repository contains a Python script is designed to help you verify regular 
 - [Requirements](#requirements)
 - [Description](#description)
 - [Usage](#usage)
+- [Example](#example)
 
 ## Programming Language
 
@@ -102,18 +103,23 @@ Finally, the `main` calls the function `get_expression`, and the do a cycle to v
 
 On the step four you need to type first the expression and next the word:
 
-```
-    $ [0-9]*
-```
+Expression:
 
 ```
-    69
+[0-9]*
+```
+
+Word:
+
+```
+69
 ```
 
 Output: 
 
 ```
-    Yes!!!! The word 69 is on the expression: [0-9]+ 
+Yes!!!! The word 69 is on the expression: [0-9]+ 
 ```
 
-
+Feel free to clone the repository and test it working.
+I hope you find it useful!!!
